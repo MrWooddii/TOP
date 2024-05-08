@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  size: 18px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.header-link-container {
+  display: flex;
+}
+
+.header-link {
+  display: flex;
+  margin: 20px;
+  margin-right: 40px;
+}
+
+.header-logo {
+  display: flex;
+  margin: 20px;
+  justify-content: flex-start;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.main-content {
+  text-align: left;
+  text-justify: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 40%;
+}
+
+.main-content-image {
+  display: flex;
+  width: 50%;
+}
+
+.landing-page-image {
+  max-width: 66%;
+  max-height: 66%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  justify-content: flex-start;
+}
+
+.signup-button {
+  background-color: #3882f6;
+  border-style: none;
+  border-radius: 6px;
+  color: white;
+  width: 80px;
+  height: 40px;
+}
+
+.information-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.information-image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.information-header {
+  font-weight: extra-bold;
+  size: 36px;
+  color: #1f2937;
+}
+
+.single-image-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-self: stretch;
+}
+
+.information-image {
+  height: 256px;
+  width: 256px;
+  border-radius: 25px;
+  border: 4px solid #3882f6;
+}
+
+.image-description {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 256px;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  font: light italic;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: bold;
+  text-align: center;
+}
