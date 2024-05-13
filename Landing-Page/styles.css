@@ -66,8 +66,8 @@ header {
   border-style: none;
   border-radius: 6px;
   color: white;
-  width: 80px;
-  height: 40px;
+  width: 120px;
+  height: 30px;
 }
 
 .information-container {
@@ -115,9 +115,63 @@ header {
 
 .quote-section {
   background-color: #e5e7eb;
-  font: light italic;
   font-size: 36px;
-  color: #1f2937;
+  color: #e5e7eb;
   font-weight: bold;
   text-align: center;
+}
+
+.quote-text {
+  font-family: light italic;
+  font-size: 36px;
+  color: #1f2937;
+  padding: 5% 25% 0;
+  text-align: left;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.quote-author {
+  font-family: light italic;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1f2937;
+  text-align: right;
+  padding: 0 25%;
+}
+
+.signup-section {
+  background-color: #3882f6;
+  display: flex;
+  margin: 2% 25%;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  padding: 20px;
+  align-items: center;
+}
+
+.signup-text-header {
+  color: white;
+  font-weight: bold;
+}
+
+.signup-text {
+  color: white;
+}
+
+.bottom-signup-button {
+  background-color: #3882f6;
+  border-color: white;
+  border-radius: 6px;
+  color: white;
+  width: 120px;
+  height: 30px;
+}
+
+.footer {
+  background: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
 }
