@@ -1,0 +1,33 @@
+.container {
+  display: grid;
+  column-gap: 0;
+  grid-template-columns: 200px 200px 200px;
+}
+
+button {
+  width: 5rem;
+  height: 5rem;
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+.operator {
+  background-color: orange;
+}
+
+.number {
+  background-color: green;
+}
+
+.control {
+  background-color: lightblue;
+}
+
+.display {
+  background-color: grey;
+}
+
+.zero {
+  width: 10rem;
+  height: 5rem;
+}
